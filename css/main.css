@@ -357,6 +357,9 @@ h2 {
 button {
   margin: 0 auto;
 }
+button:hover {
+  cursor: pointer;
+}
 
 .signin {
   font-weight: 400;
@@ -365,12 +368,29 @@ button {
   background: none;
   border: none;
   color: #8794BA;
+  padding: 10px 53px;
+}
+.signin:hover {
+  cursor: pointer;
+  border: 1px solid #465B95;
+  border-radius: 68px;
+  color: #5e6884;
 }
 
 .signup {
+  margin-left: 5px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  border: 1px solid #465B95;
+  border-radius: 68px;
+  align-items: center;
+  padding: 10px 53px;
+  background: transparent;
+  color: #8794BA;
+}
+.signup:hover {
+  color: #5e6884;
 }
 
 .layout {
@@ -410,8 +430,16 @@ header .left-content .left-items {
   padding-left: 45px;
 }
 header .left-content .left-items .left-item {
+  display: flex;
   margin-left: 35px;
+  text-decoration: none;
+  color: #8794BA;
+  font-size: 16px;
+}
+header .left-content .left-items .left-item:hover {
+  color: #5e6884;
 }
 header .right-content .right-items {
   display: flex;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

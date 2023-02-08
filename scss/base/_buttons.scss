@@ -1,5 +1,9 @@
 button {
     margin: 0 auto;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .signin {
@@ -9,10 +13,29 @@ button {
     background: none;
     border: none;
     color: #8794BA;
+    padding: 10px 53px;
+
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #465B95;
+        border-radius: 68px;
+        color: #5e6884;
+    }
 }
 
 .signup {
+    margin-left: 5px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    border: 1px solid #465B95;
+    border-radius: 68px;
+    align-items: center;
+    padding: 10px 53px;
+    background: transparent;
+    color: #8794BA;
+
+    &:hover {
+        color: #5e6884;
+    }
 }
