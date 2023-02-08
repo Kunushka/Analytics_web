@@ -1,1 +1,30 @@
+.advantage {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    max-height: 350px;
 
+    p {
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+
+    .advantage-left {
+        margin-right: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 550px;
+    }
+}
+
+.advimg-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+.advantage-img {
+    width: 400px;
+    height: 100%;
+    border-radius: 32px;
+}

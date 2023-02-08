@@ -330,12 +330,13 @@ ul, li {
 }
 
 h1 {
-  font-size: 60px;
-  line-height: 70px;
-  font-weight: 400;
-  text-align: center;
+  font-size: 50px;
+  line-height: 120%;
+  font-weight: 700;
+  text-align: left;
   color: #FFFFFF;
   text-transform: none;
+  margin: 0;
 }
 @media (max-width: 810px) {
   h1 {
@@ -343,54 +344,48 @@ h1 {
   }
 }
 
-h2 {
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 70px;
-  text-align: center;
-  color: #FFAE2B;
-  padding-bottom: 60px;
-  margin: 0 auto;
-  text-transform: none;
-}
-
 button {
   margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 53px;
+  border-radius: 68px;
 }
 button:hover {
   cursor: pointer;
 }
 
 .signin {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
   background: none;
   border: none;
   color: #8794BA;
-  padding: 10px 53px;
 }
 .signin:hover {
   cursor: pointer;
   border: 1px solid #465B95;
-  border-radius: 68px;
   color: #5e6884;
 }
 
 .signup {
   margin-left: 5px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
   border: 1px solid #465B95;
-  border-radius: 68px;
-  align-items: center;
-  padding: 10px 53px;
   background: transparent;
   color: #8794BA;
 }
 .signup:hover {
   color: #5e6884;
+}
+
+.tryforfree {
+  background: #EF2A82;
+  border: 1px solid #EF2A82;
+  color: #FFFFFF;
+  padding: 15px 80px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.tryforfree:hover {
+  opacity: 0.5;
 }
 
 .layout {
@@ -413,6 +408,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 50px 0 75px 0;
 }
 header .left-content {
@@ -427,6 +423,7 @@ header .left-content .logo {
 header .left-content .left-items {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding-left: 45px;
 }
 header .left-content .left-items .left-item {
@@ -442,4 +439,33 @@ header .left-content .left-items .left-item:hover {
 header .right-content .right-items {
   display: flex;
   text-align: center;
+}
+
+.advantage {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  max-height: 350px;
+}
+.advantage p {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+.advantage .advantage-left {
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 550px;
+}
+
+.advimg-wrapper {
+  align-items: center;
+  display: flex;
+}
+
+.advantage-img {
+  width: 400px;
+  height: 100%;
+  border-radius: 32px;
 }/*# sourceMappingURL=main.css.map */

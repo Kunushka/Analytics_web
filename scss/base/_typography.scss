@@ -22,12 +22,13 @@ ul, li {
 }
 
 h1 {
-    font-size: 60px;
-    line-height: 70px;
-    font-weight: 400;
-    text-align: center;
+    font-size: 50px;
+    line-height: 120%;
+    font-weight: 700;
+    text-align: left;
     color: #FFFFFF;
     text-transform: none;
+    margin: 0;
 
     @media (max-width: 810px) {
         font-size: 40px;
@@ -35,12 +36,13 @@ h1 {
 }
 
 h2 {
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 70px;
-    text-align: center;
-    color: #FFAE2B;
-    padding-bottom: 60px;
-    margin: 0 auto;
-    text-transform: none;
+    // font-weight: 400;
+    // font-size: 60px;
+    // line-height: 70px;
+    // text-align: center;
+    // color: #FFAE2B;
+    // padding-bottom: 60px;
+    // margin: 0 auto;
+    // text-transform: none;
 }
+

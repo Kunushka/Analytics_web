@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 50px 0 75px 0;
 
     .left-content {
@@ -17,6 +18,7 @@ header {
         .left-items {
             display: flex;
             align-items: center;
+            flex-wrap: wrap;
             padding-left: 45px;
 
             .left-item {
