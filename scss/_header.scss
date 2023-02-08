@@ -5,33 +5,29 @@ header {
     padding: 50px 0 75px 0;
 
     .left-content {
-        
+        display: flex;
+        justify-content: space-between;
+
         .logo {
+            display: flex;
+            align-items: center;
             max-width: 170px;
         }
 
         .left-items {
+            display: flex;
+            align-items: center;
             padding-left: 45px;
 
-            .left-item {
-                display: flex;
-                text-decoration: none;
-
-                &:nth-last-child() {
-                    margin-right: 35px;
-                }
-
-                ul {
-                    display: flex;
-                    align-items: center;
-                }
+            .left-item { 
+                margin-left: 35px;
             }
         }
-
-        .right-content {}
     }
 
-    .signin {}
-
-    .signup {}
+    .right-content {
+        .right-items {
+            display: flex;
+        }
+    }
 }

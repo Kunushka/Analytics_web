@@ -392,21 +392,26 @@ button {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 50px 0 75px 0;
 }
-header .logo {
+header .left-content {
   display: flex;
+  justify-content: space-between;
 }
-header nav {
-  display: flex;
-}
-header nav .left-items {
-  padding-left: 45px;
-}
-header nav .left-items .left-item {
-  text-decoration: none;
-}
-header nav .left-items ul {
+header .left-content .logo {
   display: flex;
   align-items: center;
+  max-width: 170px;
+}
+header .left-content .left-items {
+  display: flex;
+  align-items: center;
+  padding-left: 45px;
+}
+header .left-content .left-items .left-item {
+  margin-left: 35px;
+}
+header .right-content .right-items {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
