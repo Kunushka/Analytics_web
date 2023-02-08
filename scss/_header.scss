@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 75px 0;
+
+    .left-content {
+        
+        .logo {
+            max-width: 170px;
+        }
+
+        .left-items {
+            padding-left: 45px;
+
+            .left-item {
+                display: flex;
+                text-decoration: none;
+
+                &:nth-last-child() {
+                    margin-right: 35px;
+                }
+
+                ul {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+
+        .right-content {}
+    }
+
+    .signin {}
+
+    .signup {}
+}
