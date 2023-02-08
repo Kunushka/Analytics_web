@@ -1,42 +1,47 @@
 .top {
-    background-image: url(../img/hero_bg.png);
+    background-image: url(../img/top_bg.png);
     background-repeat: no-repeat;
     margin: 0 auto;
     text-align: center;
-    min-height: 815px;
+    min-height: 1660px;
 
-    .advantage {
-        display: flex;
-        text-align: left;
-        max-width: 100%;
-        padding-bottom: 260px;
-        flex-wrap: wrap;
 
-        p {
-            padding-top: 15px;
-            padding-bottom: 35px;
-        }
-
-        .advantage-left {
-            margin-right: 80px;
+        .advantage {
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            max-width: 550px;
-        }
+            text-align: left;
+            max-width: 100%;
+            padding-bottom: 260px;
+            flex-wrap: wrap;
 
-        .advimg-wrapper {
-            align-items: center;
-            display: flex;
-        }
+            p {
+                padding-top: 15px;
+                padding-bottom: 35px;
+            }
 
-        .advantage-img {
-            width: 400px;
-            height: 100%;
-            border-radius: 32px;
+            .advantage-left {
+                margin-right: 80px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                max-width: 550px;
+            }
+
+            .advimg-wrapper {
+                align-items: center;
+                display: flex;
+            }
+
+            .advantage-img {
+                width: 400px;
+                height: 100%;
+                border-radius: 30px;
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
         }
     }
-}
+
 
 .features {
     display: flex;

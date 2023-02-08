@@ -450,11 +450,11 @@ header .right-content .right-items {
 }
 
 .top {
-  background-image: url(../img/hero_bg.png);
+  background-image: url(../img/top_bg.png);
   background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
-  min-height: 815px;
+  min-height: 1660px;
 }
 .top .advantage {
   display: flex;
@@ -481,7 +481,10 @@ header .right-content .right-items {
 .top .advantage .advantage-img {
   width: 400px;
   height: 100%;
-  border-radius: 32px;
+  border-radius: 30px;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .features {
