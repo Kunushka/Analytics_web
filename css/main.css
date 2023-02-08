@@ -344,6 +344,14 @@ h1 {
   }
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #172755;
+}
+
 button {
   margin: 0 auto;
   font-size: 16px;
@@ -441,31 +449,43 @@ header .right-content .right-items {
   text-align: center;
 }
 
-.advantage {
+.top {
+  background-image: url(../img/hero_bg.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 815px;
+}
+.top .advantage {
   display: flex;
   text-align: left;
+  max-width: 100%;
+  padding-bottom: 260px;
   flex-wrap: wrap;
-  max-height: 350px;
 }
-.advantage p {
+.top .advantage p {
   padding-top: 15px;
   padding-bottom: 35px;
 }
-.advantage .advantage-left {
+.top .advantage .advantage-left {
   margin-right: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 550px;
 }
-
-.advimg-wrapper {
+.top .advantage .advimg-wrapper {
   align-items: center;
   display: flex;
 }
-
-.advantage-img {
+.top .advantage .advantage-img {
   width: 400px;
   height: 100%;
   border-radius: 32px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 43px;
 }/*# sourceMappingURL=main.css.map */

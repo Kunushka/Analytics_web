@@ -1,30 +1,45 @@
-.advantage {
-    display: flex;
-    text-align: left;
-    flex-wrap: wrap;
-    max-height: 350px;
+.top {
+    background-image: url(../img/hero_bg.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 815px;
 
-    p {
-        padding-top: 15px;
-        padding-bottom: 35px;
-    }
-
-    .advantage-left {
-        margin-right: 80px;
+    .advantage {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        max-width: 550px;
+        text-align: left;
+        max-width: 100%;
+        padding-bottom: 260px;
+        flex-wrap: wrap;
+
+        p {
+            padding-top: 15px;
+            padding-bottom: 35px;
+        }
+
+        .advantage-left {
+            margin-right: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 550px;
+        }
+
+        .advimg-wrapper {
+            align-items: center;
+            display: flex;
+        }
+
+        .advantage-img {
+            width: 400px;
+            height: 100%;
+            border-radius: 32px;
+        }
     }
 }
 
-.advimg-wrapper {
-    align-items: center;
+.features {
     display: flex;
-}
-
-.advantage-img {
-    width: 400px;
-    height: 100%;
-    border-radius: 32px;
+    flex-wrap: wrap;
+    padding-top: 43px;
 }
