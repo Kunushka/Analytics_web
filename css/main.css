@@ -503,18 +503,18 @@ header .right-content .right-items {
   margin: 0;
   padding-bottom: 80px;
 }
-.top .features .cards {
+.top .features .features-cards {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 0 15px;
 }
-.top .features .cards .card {
+.top .features .features-cards .features-card {
   max-width: 380px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
-.top .features .cards .title {
+.top .features .features-cards .title {
   color: #172755;
   font-weight: 700;
   font-size: 16px;
@@ -561,4 +561,33 @@ header .right-content .right-items {
 }
 .top .infographics .prebuilt .prebuilt-write {
   padding-right: 100px;
+}
+
+.bottom {
+  background-image: url(../img/bottom_bg.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 1660px;
+}
+.bottom h2 {
+  padding-top: 265px;
+  color: #FFFFFF;
+}
+.bottom .pricing {
+  display: flex;
+  justify-content: center;
+}
+.bottom .pricing .pricing-write {
+  max-width: 620px;
+}
+.bottom .pricing .pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottom .pricing .pricing-cards .pricing-card {
+  background-color: #0F1F4B;
+}
+.bottom .pricing .pricing-cards .pricing-card .title {
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

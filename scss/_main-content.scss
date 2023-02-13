@@ -58,13 +58,13 @@
             }
         }
 
-        .cards {
+        .features-cards {
             display: flex;
             flex-wrap: wrap;
             margin: 0 auto;
             padding: 0 15px;
 
-            .card {
+            .features-card {
                 max-width: 380px;
                 margin: 0 auto;
                 margin-bottom: 20px;
@@ -136,6 +136,42 @@
 
             .prebuilt-write {
                 padding-right: 100px;
+            }
+        }
+    }
+}
+
+.bottom {
+    background-image: url(../img/bottom_bg.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 1660px;
+
+    h2 {
+        padding-top: 265px;
+        color: #FFFFFF;
+    }
+
+    .pricing {
+        display: flex;
+        justify-content: center;
+
+        .pricing-write {
+            max-width: 620px;
+        }
+
+        .pricing-cards {
+            display: flex;
+            flex-wrap: wrap;
+
+            .pricing-card {
+                background-color: #0F1F4B;
+               
+
+                .title {
+                    color: #FFFFFF;
+                }
             }
         }
     }
