@@ -471,7 +471,6 @@ header .right-content .right-items {
   padding-bottom: 35px;
 }
 .top .advantage .advantage-left {
-  margin-right: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -482,34 +481,84 @@ header .right-content .right-items {
   display: flex;
 }
 .top .advantage .advantage-img {
+  margin-left: 80px;
   width: 400px;
   width: 250px;
   border-radius: 30px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
-.features {
+.top .features {
   display: flex;
   flex-wrap: wrap;
   padding-top: 43px;
+  margin: 0 auto;
+  padding-bottom: 130px;
 }
-.features .features-top {
+.top .features .features-top {
   max-width: 1060px;
   margin: 0 auto;
 }
-.features .features-top p {
+.top .features .features-top p {
   margin: 0;
   padding-bottom: 80px;
 }
-.features .cards {
+.top .features .cards {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 0 15px;
 }
-.features .cards .title {
+.top .features .cards .card {
+  max-width: 380px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.top .features .cards .title {
   color: #172755;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+}
+.top .infographics {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+}
+.top .infographics h2 {
+  text-align: left;
+}
+.top .infographics p {
+  text-align: left;
+}
+.top .infographics img {
+  max-width: 600px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.top .infographics .automated {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.top .infographics .automated .automated-write {
+  padding-right: 100px;
+}
+.top .infographics .fully {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.top .infographics .fully .fully-write {
+  padding-left: 100px;
+}
+.top .infographics .prebuilt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .infographics .prebuilt .prebuilt-write {
+  padding-right: 100px;
 }/*# sourceMappingURL=main.css.map */

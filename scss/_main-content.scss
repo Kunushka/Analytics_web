@@ -9,6 +9,8 @@
         display: flex;
         text-align: left;
         max-width: 100%;
+
+        // кроссбраузер
         padding-bottom: 260px;
         flex-wrap: wrap;
 
@@ -18,7 +20,6 @@
         }
 
         .advantage-left {
-            margin-right: 80px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -31,36 +32,43 @@
         }
 
         .advantage-img {
+            margin-left: 80px;
             width: 400px;
             width: 250px;
             border-radius: 30px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
             text-align: center;
         }
     }
-}
 
-.features {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 43px;
-
-    .features-top {
-        max-width: 1060px;
-        margin: 0 auto;
-
-        p {
-            margin: 0;
-            padding-bottom: 80px;
-        }
-    }
-
-    .cards {
+    .features {
         display: flex;
+        flex-wrap: wrap;
+        padding-top: 43px;
         margin: 0 auto;
-        padding: 0 15px;
+        padding-bottom: 130px;
 
+        .features-top {
+            max-width: 1060px;
+            margin: 0 auto;
 
+            p {
+                margin: 0;
+                padding-bottom: 80px;
+            }
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            padding: 0 15px;
+
+            .card {
+                max-width: 380px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
 
             .title {
                 color: #172755;
@@ -71,3 +79,64 @@
         }
     }
 
+    .infographics {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 120px;
+
+        h2 {
+            text-align: left;
+        }
+
+        p {
+            text-align: left;
+        }
+
+        img {
+            max-width: 600px;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .automated {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            // для кроссбраузерности
+            // flex-wrap: wrap;
+            padding-bottom: 120px;
+
+            .automated-write {
+                padding-right: 100px;
+            }
+        }
+
+        .fully {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            // для кроссбраузерности
+            // flex-wrap: wrap;
+            padding-bottom: 120px;
+
+            .fully-write {
+                padding-left: 100px;
+            }
+        }
+
+        .prebuilt {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            // для кроссбраузерности
+            // flex-wrap: wrap;
+
+            .prebuilt-write {
+                padding-right: 100px;
+            }
+        }
+    }
+}
