@@ -45,3 +45,27 @@ button {
         opacity: 0.5;
     }
 }
+
+.order {
+    margin-left: 5px;
+    border: 1px solid #465B95;
+    background: transparent;
+    color: #FFFFFF;
+    margin-top: 55px;
+
+    &:hover {
+        color: #5e6884;
+    }
+}
+
+.order-center {
+    margin-left: 5px;
+    border: 1px solid #EF2A82;
+    background: #EF2A82;
+    color: #FFFFFF;
+    margin-top: 55px;
+
+    &:hover {
+        color: #5e6884;
+    }
+}

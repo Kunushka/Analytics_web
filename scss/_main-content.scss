@@ -155,22 +155,52 @@
 
     .pricing {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
         .pricing-write {
             max-width: 620px;
+            margin: 0 auto;
+            padding-bottom: 80px;
         }
 
         .pricing-cards {
             display: flex;
-            flex-wrap: wrap;
+            justify-content: space-between;
 
             .pricing-card {
+                min-width: 340px;
                 background-color: #0F1F4B;
-               
+                border-radius: 30px;
+                padding: 70px;
+                padding-top: 50px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+                span {
+                    font-size: 16px;
+                }
 
                 .title {
                     color: #FFFFFF;
+                }
+
+                .subtitle {
+                    padding-bottom: 37px;
+                    border-bottom: 1px solid #465B95;
+                }
+
+                .price {
+                    color: #FFFFFF;
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 35px;
+                    align-items: center;
+                    margin-bottom: 0;
+                }
+
+                .month {
+                    margin: 0;
+                    line-height: 20px;
                 }
             }
         }
