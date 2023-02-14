@@ -444,32 +444,32 @@ header {
   flex-wrap: wrap;
   padding: 50px 0 75px 0;
 }
-header .left-content {
+header .left-contenth {
   display: flex;
   justify-content: space-between;
 }
-header .left-content .logo {
+header .left-contenth .logo {
   display: flex;
   align-items: center;
   max-width: 170px;
 }
-header .left-content .left-items {
+header .left-contenth .left-items {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   padding-left: 45px;
 }
-header .left-content .left-items .left-item {
+header .left-contenth .left-items .left-item {
   display: flex;
   margin-left: 35px;
   text-decoration: none;
   color: #8794BA;
   font-size: 16px;
 }
-header .left-content .left-items .left-item:hover {
+header .left-contenth .left-items .left-item:hover {
   color: #5e6884;
 }
-header .right-content .right-items {
+header .right-contenth .right-items {
   display: flex;
   text-align: center;
 }
@@ -671,4 +671,51 @@ header .right-content .right-items {
 .bottom .pricing .pricing-cards .pricing-card1 .month {
   margin: 0;
   line-height: 20px;
+}
+
+footer {
+  padding-top: 63px;
+  padding-bottom: 103px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .left-contenth {
+  display: flex;
+  justify-content: space-between;
+}
+footer .left-contenth .logo {
+  display: flex;
+  align-items: center;
+  max-width: 170px;
+}
+footer .left-contenth .left-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 250px;
+}
+footer .left-contenth .left-items .left-item {
+  display: flex;
+  margin-left: 35px;
+  text-decoration: none;
+  color: #8794BA;
+  font-size: 16px;
+}
+footer .left-contenth .left-items .left-item:hover {
+  color: #5e6884;
+}
+footer .right-contenth .right-items {
+  display: flex;
+  text-align: center;
+}
+footer .right-contenth .right-items .twitter {
+  margin: 0 40px;
+}
+footer .right-contenth .right-items .twitter:hover {
+  opacity: 0.5;
+}
+footer .right-contenth .right-items .facebook:hover, footer .right-contenth .right-items .instagram:hover {
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */
