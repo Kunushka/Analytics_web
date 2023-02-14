@@ -590,39 +590,42 @@ header .right-content .right-items {
   background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
-  min-height: 1660px;
-}
-.bottom h2 {
-  padding-top: 265px;
-  color: #FFFFFF;
 }
 .bottom .pricing {
-  display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  padding-bottom: 90px;
+  border-bottom: 1px solid #2A407C;
 }
 .bottom .pricing .pricing-write {
   max-width: 620px;
   margin: 0 auto;
   padding-bottom: 80px;
 }
+.bottom .pricing .pricing-write h2 {
+  padding-top: 265px;
+  color: #FFFFFF;
+}
 .bottom .pricing .pricing-cards {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.bottom .pricing .pricing-cards span {
+  font-size: 16px;
 }
 .bottom .pricing .pricing-cards .pricing-card {
-  min-width: 340px;
+  margin-bottom: 20px;
+  max-width: 340px;
   background-color: #0F1F4B;
   border-radius: 30px;
   padding: 70px;
   padding-top: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
-.bottom .pricing .pricing-cards .pricing-card span {
-  font-size: 16px;
-}
 .bottom .pricing .pricing-cards .pricing-card .title {
   color: #FFFFFF;
+  font-weight: 700;
 }
 .bottom .pricing .pricing-cards .pricing-card .subtitle {
   padding-bottom: 37px;
@@ -637,6 +640,35 @@ header .right-content .right-items {
   margin-bottom: 0;
 }
 .bottom .pricing .pricing-cards .pricing-card .month {
+  margin: 0;
+  line-height: 20px;
+}
+.bottom .pricing .pricing-cards .pricing-card1 {
+  margin-bottom: 20px;
+  max-width: 340px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  padding: 70px;
+  padding-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.bottom .pricing .pricing-cards .pricing-card1 .title-center {
+  font-weight: 700;
+  color: #172755;
+}
+.bottom .pricing .pricing-cards .pricing-card1 .subtitle {
+  padding-bottom: 37px;
+  border-bottom: 1px solid #465B95;
+}
+.bottom .pricing .pricing-cards .pricing-card1 .price-center {
+  color: #172755;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  align-items: center;
+  margin-bottom: 0;
+}
+.bottom .pricing .pricing-cards .pricing-card1 .month {
   margin: 0;
   line-height: 20px;
 }/*# sourceMappingURL=main.css.map */
