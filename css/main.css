@@ -433,8 +433,9 @@ button:hover {
 
 .layout-inner {
   width: 100%;
-  max-width: 1180px;
+  max-width: 1150px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 header {
@@ -485,6 +486,8 @@ header .right-contenth .right-items {
   display: flex;
   text-align: left;
   max-width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
   padding-bottom: 260px;
   flex-wrap: wrap;
 }
@@ -497,15 +500,16 @@ header .right-contenth .right-items {
   flex-direction: column;
   justify-content: space-between;
   max-width: 550px;
+  margin-right: 80px;
 }
 .top .advantage .advimg-wrapper {
   align-items: center;
   display: flex;
 }
 .top .advantage .advantage-img {
-  margin-left: 80px;
-  width: 400px;
-  min-width: 250px;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
   border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -542,6 +546,10 @@ header .right-contenth .right-items {
   font-size: 16px;
   line-height: 19px;
 }
+.top .infographics {
+  display: flex;
+  flex-wrap: wrap;
+}
 .top .infographics .infographic-wrapper {
   display: flex;
   justify-content: space-between;
@@ -558,6 +566,8 @@ header .right-contenth .right-items {
 }
 .top .infographics .infographic-wrapper img {
   max-width: 600px;
+  width: 100%;
+  height: auto;
   border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
@@ -579,6 +589,8 @@ header .right-contenth .right-items {
 }
 .top .infographics .infographic-wrapper-reverse img {
   max-width: 600px;
+  width: 100%;
+  height: auto;
   border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
