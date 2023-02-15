@@ -80,166 +80,34 @@
     }
 
     .infographics {
-        display: flex;
-        flex-wrap: wrap;
-        padding-bottom: 120px;
-
-        h2 {
-            text-align: left;
-        }
-
-        p {
-            text-align: left;
-        }
-
-        img {
-            max-width: 600px;
-            border-radius: 30px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-        }
-
-        .automated {
+        .infographic-wrapper {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            margin-bottom: 120px;
 
-            // для кроссбраузерности
-            // flex-wrap: wrap;
-            padding-bottom: 120px;
-
-            .automated-write {
-                padding-right: 100px;
+            .infographic-content {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
             }
-        }
 
-        .fully {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            // для кроссбраузерности
-            // flex-wrap: wrap;
-            padding-bottom: 120px;
-
-            .fully-write {
-                padding-left: 100px;
+            h2, p {
+                text-align: left;
+                max-width: 480px;
             }
-        }
 
-        .prebuilt {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            // для кроссбраузерности
-            // flex-wrap: wrap;
-
-            .prebuilt-write {
-                padding-right: 100px;
+            img {
+                max-width: 600px;
+                border-radius: 30px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
             }
         }
     }
 }
 
-.bottom {
-    background-image: url(../img/bottom_bg.png);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    text-align: center;
-
-    .pricing {
-        flex-wrap: wrap;
-        padding-bottom: 90px;
-        border-bottom: 1px solid #2A407C;
-
-        .pricing-write {
-            max-width: 620px;
-            margin: 0 auto;
-            padding-bottom: 80px;
-
-            h2 {
-                padding-top: 265px;
-                color: #FFFFFF;
-            }
-        }
-
-        .pricing-cards {
-            display: flex;
-            justify-content: space-between;
-            margin: 0 auto;
-            flex-wrap: wrap;
-
-            span {
-                font-size: 16px;
-            }
-
-            .pricing-card {
-                margin-bottom: 20px;
-                max-width: 340px;
-                background-color: #0F1F4B;
-                border-radius: 30px;
-                padding: 70px;
-                padding-top: 50px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-
-                .title {
-                    color: #FFFFFF;
-                    font-weight: 700;
-                }
-
-                .subtitle {
-                    padding-bottom: 37px;
-                    border-bottom: 1px solid #465B95;
-                }
-
-                .price {
-                    color: #FFFFFF;
-                    font-size: 30px;
-                    font-weight: 700;
-                    line-height: 35px;
-                    align-items: center;
-                    margin-bottom: 0;
-                }
-
-                .month {
-                    margin: 0;
-                    line-height: 20px;
-                }
-            }
-
-            .pricing-card1 {
-                margin-bottom: 20px;
-                max-width: 340px;
-                background-color: #FFFFFF;
-                border-radius: 30px;
-                padding: 70px;
-                padding-top: 50px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-
-                .title-center {
-                    font-weight: 700;
-                    color: #172755;
-                }
-
-                .subtitle {
-                    padding-bottom: 37px;
-                    border-bottom: 1px solid #465B95;
-                }
-
-                .price-center {
-                    color: #172755;
-                    font-size: 30px;
-                    font-weight: 700;
-                    line-height: 35px;
-                    align-items: center;
-                    margin-bottom: 0;
-                }
-
-                .month {
-                    margin: 0;
-                    line-height: 20px;
-                }
-            }
-        }
-    }
-}
+// .bottom {
+//     background-image: url(../img/bottom_bg.png);
+//     background-repeat: no-repeat;
+//     margin: 0 auto;
+//     text-align: center;
+// }
