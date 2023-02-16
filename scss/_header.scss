@@ -5,6 +5,28 @@ header {
     flex-wrap: wrap;
     padding: 50px 0 75px 0;
 
+  
+     #burger, [for=burger]{
+        display: none;
+
+    }
+
+    @media screen and (max-width: 480px) {
+        #burger {
+            width: 80%;
+            margin: auto;
+        }
+
+        [for=burger] {
+            display: block;
+            position: fixed;
+            width: 30px;
+            text-align: center;
+            right: 20px;
+            top:10px;
+        }
+    }
+
     .left-contenth {
         display: flex;
         justify-content: space-between;

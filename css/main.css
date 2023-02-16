@@ -445,6 +445,23 @@ header {
   flex-wrap: wrap;
   padding: 50px 0 75px 0;
 }
+header #burger, header [for=burger] {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  header #burger {
+    width: 80%;
+    margin: auto;
+  }
+  header [for=burger] {
+    display: block;
+    position: fixed;
+    width: 30px;
+    text-align: center;
+    right: 20px;
+    top: 10px;
+  }
+}
 header .left-contenth {
   display: flex;
   justify-content: space-between;
