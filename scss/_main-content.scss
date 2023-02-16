@@ -65,20 +65,27 @@
         .features-cards {
             display: flex;
             flex-wrap: wrap;
-            margin: 0 auto;
-            padding: 0 15px;
-
+            
             .features-card {
                 max-width: 380px;
                 margin: 0 auto;
                 margin-bottom: 20px;
             }
-
+            
             .title {
                 color: #172755;
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 19px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            :nth-child(even) {
+                margin-right: 20px;
+                margin-left: 20px;
             }
         }
     }
@@ -88,41 +95,47 @@
         flex-wrap: wrap;
 
         .infographic-wrapper {
-            display: flex;
-            justify-content: space-between;
             margin-bottom: 120px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
 
             .infographic-content {
-                display: flex;
-                flex-wrap: wrap;
-                align-content: center;
-            }
-
-            h2, p {
-                text-align: left;
+                display: inline;
+                align-items: center;
                 max-width: 480px;
+                margin: 0 auto;
+                margin-bottom: 120px;
+                margin-right: 100px;
             }
 
             img {
                 max-width: 600px;
                 width: 100%;
                 height: auto;
+                margin: 0 auto;
                 border-radius: 30px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+            }
+
+            h2, p {
+                text-align: left;
+                max-width: 480px;
             }
         }
 
         .infographic-wrapper-reverse {
+            margin-bottom: 120px;
             display: flex;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
             flex-direction: row-reverse;
             margin-bottom: 120px;
 
             .infographic-content {
-                display: flex;
-                flex-wrap: wrap;
-                align-content: center;
-                flex-direction: row-reverse;
+                max-width: 480px;
+                margin: 0 auto;
+                margin-bottom: 120px;
             }
 
             h2, p {
@@ -132,8 +145,8 @@
 
             img {
                 max-width: 600px;
-                width: 100%;
-                height: auto;
+                margin: 0 auto;
+                margin-right: 100px;
                 border-radius: 30px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
             }
