@@ -562,11 +562,8 @@ header .right-contenth .right-items {
   flex-wrap: wrap;
 }
 .top .infographics .infographic-wrapper .infographic-content {
-  display: inline;
-  align-items: center;
   max-width: 480px;
   margin: 0 auto;
-  margin-bottom: 120px;
   margin-right: 100px;
 }
 .top .infographics .infographic-wrapper img {
@@ -587,12 +584,11 @@ header .right-contenth .right-items {
   flex-wrap: wrap;
   align-items: center;
   flex-direction: row-reverse;
-  margin-bottom: 120px;
 }
 .top .infographics .infographic-wrapper-reverse .infographic-content {
   max-width: 480px;
   margin: 0 auto;
-  margin-bottom: 120px;
+  margin-left: 100px;
 }
 .top .infographics .infographic-wrapper-reverse h2, .top .infographics .infographic-wrapper-reverse p {
   text-align: left;
@@ -600,8 +596,9 @@ header .right-contenth .right-items {
 }
 .top .infographics .infographic-wrapper-reverse img {
   max-width: 600px;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
-  margin-right: 100px;
   border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
