@@ -1,3 +1,9 @@
+img {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
 .top {
     background-image: url(../img/top_bg.png);
     background-repeat: no-repeat;
@@ -18,6 +24,11 @@
             // display: inline-block;
             padding-top: 15px;
             padding-bottom: 35px;
+
+            @media screen and (max-width: 480px) {
+                padding-bottom: 25px;
+                margin: 0;
+            }
         }
 
         .advantage-left {
@@ -26,6 +37,11 @@
             justify-content: space-between;
             max-width: 550px;
             margin-right: 80px;
+
+            @media screen and (max-width: 480px) {
+                padding-top: 15px;
+                margin: 0;
+            }
         }
 
         .advimg-wrapper {
@@ -37,9 +53,33 @@
             max-width: 400px;
             width: 100%;
             height: auto;
-            border-radius: 30px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
             text-align: center;
+
+            @media screen and (max-width: 480px) {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            padding-top: 10px;
+        }
+
+        .img_responsive {
+            @media screen and (max-width: 480px) {
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+                padding-top: 10px;
+            }
+
+            @media screen and (min-width: 480px) {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            padding-bottom: 178px;
         }
     }
 
@@ -57,6 +97,10 @@
             p {
                 margin: 0;
                 padding-bottom: 80px;
+
+                @media screen and (max-width: 480px) {
+                    padding-bottom: 40px;
+                }
             }
         }
 
@@ -86,6 +130,12 @@
                 margin-left: 20px;
             }
         }
+
+        @media screen and (max-width: 480px) {
+            padding-bottom: 20px;
+            text-align: left;
+            padding-top: 30px;
+        }
     }
 
     .infographics {
@@ -109,7 +159,6 @@
                 width: 100%;
                 height: auto;
                 margin: 0 auto;
-                border-radius: 30px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
             }
 
@@ -142,7 +191,6 @@
                 width: 100%;
                 height: auto;
                 margin: 0 auto;
-                border-radius: 30px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
             }
         }

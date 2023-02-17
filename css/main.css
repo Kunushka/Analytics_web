@@ -338,9 +338,9 @@ h1 {
   text-transform: none;
   margin: 0;
 }
-@media (max-width: 810px) {
+@media screen and (max-width: 480px) {
   h1 {
-    font-size: 40px;
+    font-size: 31px;
   }
 }
 
@@ -352,6 +352,13 @@ h2 {
   color: #172755;
   padding-bottom: 30px;
   margin: 0;
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+  }
 }
 
 button {
@@ -385,6 +392,11 @@ button:hover {
 .signup:hover {
   color: #5e6884;
 }
+@media screen and (max-width: 480px) {
+  .signup {
+    display: none;
+  }
+}
 
 .tryforfree {
   background: #EF2A82;
@@ -396,6 +408,11 @@ button:hover {
 }
 .tryforfree:hover {
   opacity: 0.5;
+}
+@media screen and (max-width: 480px) {
+  .tryforfree {
+    padding: 15px 125px;
+  }
 }
 
 .order {
@@ -449,6 +466,11 @@ header #burger, header [for=burger] {
   display: none;
 }
 @media screen and (max-width: 480px) {
+  header {
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 480px) {
   header #burger {
     width: 80%;
     margin: auto;
@@ -459,7 +481,7 @@ header #burger, header [for=burger] {
     width: 30px;
     text-align: center;
     right: 20px;
-    top: 10px;
+    top: 26px;
   }
 }
 header .left-contenth {
@@ -487,9 +509,25 @@ header .left-contenth .left-items .left-item {
 header .left-contenth .left-items .left-item:hover {
   color: #5e6884;
 }
+@media screen and (max-width: 480px) {
+  header .left-contenth .left-items {
+    display: none;
+  }
+}
 header .right-contenth .right-items {
   display: flex;
   text-align: center;
+}
+@media screen and (max-width: 480px) {
+  header {
+    padding-top: 20px;
+  }
+}
+
+img {
+  border-radius: 30px;
+  max-width: 100%;
+  height: auto;
 }
 
 .top {
@@ -512,12 +550,24 @@ header .right-contenth .right-items {
   padding-top: 15px;
   padding-bottom: 35px;
 }
+@media screen and (max-width: 480px) {
+  .top .advantage p {
+    padding-bottom: 25px;
+    margin: 0;
+  }
+}
 .top .advantage .advantage-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 550px;
   margin-right: 80px;
+}
+@media screen and (max-width: 480px) {
+  .top .advantage .advantage-left {
+    padding-top: 15px;
+    margin: 0;
+  }
 }
 .top .advantage .advimg-wrapper {
   align-items: center;
@@ -527,9 +577,36 @@ header .right-contenth .right-items {
   max-width: 400px;
   width: 100%;
   height: auto;
-  border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .top .advantage .advantage-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top .advantage {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top .advantage .img_responsive {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .top .advantage .img_responsive {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top .advantage {
+    padding-bottom: 178px;
+  }
 }
 .top .features {
   display: flex;
@@ -545,6 +622,11 @@ header .right-contenth .right-items {
 .top .features .features-top p {
   margin: 0;
   padding-bottom: 80px;
+}
+@media screen and (max-width: 480px) {
+  .top .features .features-top p {
+    padding-bottom: 40px;
+  }
 }
 .top .features .features-cards {
   display: flex;
@@ -568,6 +650,13 @@ header .right-contenth .right-items {
   margin-right: 20px;
   margin-left: 20px;
 }
+@media screen and (max-width: 480px) {
+  .top .features {
+    padding-bottom: 20px;
+    text-align: left;
+    padding-top: 30px;
+  }
+}
 .top .infographics {
   display: flex;
   flex-wrap: wrap;
@@ -588,7 +677,6 @@ header .right-contenth .right-items {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .top .infographics .infographic-wrapper h2, .top .infographics .infographic-wrapper p {
@@ -616,7 +704,6 @@ header .right-contenth .right-items {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 

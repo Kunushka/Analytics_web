@@ -5,10 +5,13 @@ header {
     flex-wrap: wrap;
     padding: 50px 0 75px 0;
 
-  
-     #burger, [for=burger]{
+    #burger, [for=burger] {
         display: none;
 
+    }
+    
+    @media screen and (max-width: 480px) {
+        padding-bottom: 0;
     }
 
     @media screen and (max-width: 480px) {
@@ -23,7 +26,7 @@ header {
             width: 30px;
             text-align: center;
             right: 20px;
-            top:10px;
+            top: 26px;
         }
     }
 
@@ -54,6 +57,10 @@ header {
                     color: #5e6884;
                 }
             }
+
+            @media screen and (max-width: 480px) {
+                display: none;
+            }
         }
     }
 
@@ -63,4 +70,8 @@ header {
             text-align: center;
         }
     }
+
+     @media screen and (max-width: 480px) {
+        padding-top: 20px;
+     }
 }

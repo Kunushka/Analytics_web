@@ -31,6 +31,10 @@ button {
     &:hover {
         color: #5e6884;
     }
+
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
 }
 
 .tryforfree {
@@ -43,6 +47,10 @@ button {
 
     &:hover {
         opacity: 0.5;
+    }
+
+    @media screen and (max-width: 480px) {
+        padding: 15px 125px;
     }
 }
 
