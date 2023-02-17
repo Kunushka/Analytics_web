@@ -713,7 +713,7 @@ header .right-contenth .right-items {
   font-size: 16px;
 }
 
-footer {
+.layout-inner footer {
   padding-top: 63px;
   padding-bottom: 103px;
   display: flex;
@@ -721,41 +721,40 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
-footer .left-contenth {
+.layout-inner footer .left-contenth {
   display: flex;
   justify-content: space-between;
 }
-footer .left-contenth .logo {
+.layout-inner footer .left-contenth .logo {
   display: flex;
   align-items: center;
   max-width: 170px;
 }
-footer .left-contenth .left-items {
+.layout-inner footer .left-contenth .left-items {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: 250px;
 }
-footer .left-contenth .left-items .left-item {
+.layout-inner footer .left-contenth .left-items .left-item {
   display: flex;
   margin-left: 35px;
   text-decoration: none;
   color: #8794BA;
   font-size: 16px;
 }
-footer .left-contenth .left-items .left-item:hover {
+.layout-inner footer .left-contenth .left-items .left-item:hover {
   color: #5e6884;
 }
-footer .right-contenth .right-items {
+.layout-inner footer .right-contenth .right-items {
   display: flex;
   text-align: center;
 }
-footer .right-contenth .right-items .twitter {
+.layout-inner footer .right-contenth .right-items .twitter {
   margin: 0 40px;
 }
-footer .right-contenth .right-items .twitter:hover {
+.layout-inner footer .right-contenth .right-items .twitter:hover {
   opacity: 0.5;
 }
-footer .right-contenth .right-items .facebook:hover, footer .right-contenth .right-items .instagram:hover {
+.layout-inner footer .right-contenth .right-items .facebook:hover, .layout-inner footer .right-contenth .right-items .instagram:hover {
   opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */
