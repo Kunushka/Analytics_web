@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     justify-content: space-between;
@@ -7,11 +8,11 @@ header {
 
     #burger, [for=burger] {
         display: none;
-
     }
-    
+
     @media screen and (max-width: 480px) {
-        padding-bottom: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.593);
+        padding: 0px;
     }
 
     @media screen and (max-width: 480px) {
@@ -71,7 +72,10 @@ header {
         }
     }
 
-     @media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
+        padding: 0;
         padding-top: 20px;
-     }
+        padding-bottom: 20px;
+    }
 }
+

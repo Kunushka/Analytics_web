@@ -33,6 +33,10 @@
                     color: #5e6884;
                 }
             }
+
+            @media screen and (max-width: 480px) {
+                display: none;
+            }
         }
     }
 
@@ -40,6 +44,9 @@
         .right-items {
             display: flex;
             text-align: center;
+            img {
+                border-radius: 0;
+            }
 
             .twitter {
                 margin: 0 40px;
@@ -56,6 +63,10 @@
                 }
             }
         }
+    }
+
+    @media screen and (max-width: 480px) {
+        padding: 45px 0;
     }
 }
 }

@@ -21,7 +21,7 @@ img {
         flex-wrap: wrap;
 
         p {
-            // display: inline-block;
+            padding-right: 15px;
             padding-top: 15px;
             padding-bottom: 35px;
 
@@ -79,7 +79,7 @@ img {
         }
 
         @media screen and (max-width: 480px) {
-            padding-bottom: 178px;
+            padding-bottom: 158px;
         }
     }
 
@@ -100,6 +100,9 @@ img {
 
                 @media screen and (max-width: 480px) {
                     padding-bottom: 40px;
+                    padding-right: 15px;
+                    font-size: 14px;
+                    text-align: left;
                 }
             }
         }
@@ -107,34 +110,76 @@ img {
         .features-cards {
             display: flex;
             flex-wrap: wrap;
+            border-radius: 0px;
 
             .features-card {
                 max-width: 380px;
                 margin: 0 auto;
                 margin-bottom: 20px;
+
+                @media screen and (max-width: 480px) {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-bottom: 35px;
+                }
             }
 
-            .title {
-                color: #172755;
-                font-weight: 700;
+            img {
+                border-radius: 0px;
+
+                @media screen and (max-width: 480px) {
+                    display: inline-block;
+                    margin-right: 100px;
+                    padding-top: 5px;
+                }
+            }
+
+            .features-description {
                 font-size: 16px;
-                line-height: 19px;
+
+                .features-title {
+                    color: #172755;
+                    font-weight: 700;
+                    line-height: 19px;
+
+                    @media screen and (max-width: 480px) {
+                        display: inline-block;
+                        font-size: 14px;
+                        margin-top: 0;
+                    }
+                }
+
+                .features-text {
+                    @media screen and (max-width: 480px) {
+                        font-size: 14px;
+                    }
+                }
+
+                :nth-child(even) {
+                    margin-right: 20px;
+                    margin-left: 20px;
+
+                    @media screen and (max-width: 480px) {
+                        margin: 0;
+                    }
+                }
+
+                @media screen and (max-width: 480px) {
+                    display: inline-block;
+                }
             }
 
-            p {
-                font-size: 16px;
-            }
-
-            :nth-child(even) {
-                margin-right: 20px;
-                margin-left: 20px;
+            @media screen and (max-width: 480px) {
+                display: inline-block;
+                font-size: 14px;
+                padding-bottom: 20px;
+                text-align: left;
+                padding-top: 30px;
             }
         }
 
         @media screen and (max-width: 480px) {
-            padding-bottom: 20px;
-            text-align: left;
-            padding-top: 30px;
+            padding-bottom: 15px;
         }
     }
 
@@ -152,6 +197,10 @@ img {
                 max-width: 480px;
                 margin: 0 auto;
                 margin-right: 100px;
+
+                @media screen and (max-width: 480px) {
+                    margin-right: 0;
+                }
             }
 
             img {
@@ -160,11 +209,30 @@ img {
                 height: auto;
                 margin: 0 auto;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+                @media screen and (max-width: 480px) {
+                    margin-bottom: 60px;
+                }
             }
 
-            h2, p {
+            h2 {
                 text-align: left;
                 max-width: 480px;
+            }
+
+            p {
+                text-align: left;
+                max-width: 480px;
+
+                @media screen and (max-width: 480px) {
+                    font-size: 14px;
+                    margin-top: 0;
+                    margin-bottom: 30px;
+                }
+            }
+
+            @media screen and (max-width: 480px) {
+                margin-bottom: 0;
             }
         }
 
@@ -179,11 +247,26 @@ img {
                 max-width: 480px;
                 margin: 0 auto;
                 margin-left: 100px;
+
+                @media screen and (max-width: 480px) {
+                    margin-left: 0;
+                }
             }
 
-            h2, p {
+            h2 {
                 text-align: left;
                 max-width: 480px;
+            }
+
+            p {
+                text-align: left;
+                max-width: 480px;
+
+                @media screen and (max-width: 480px) {
+                    font-size: 14px;
+                    margin: 0;
+                    margin-bottom: 30px;
+                }
             }
 
             img {
@@ -192,6 +275,14 @@ img {
                 height: auto;
                 margin: 0 auto;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+                @media screen and (max-width: 480px) {
+                    margin-bottom: 60px;
+                }
+            }
+
+            @media screen and (max-width: 480px) {
+                margin-bottom: 0;
             }
         }
     }
@@ -213,6 +304,18 @@ img {
             h2 {
                 color: #FFFFFF;
             }
+
+            p {
+                @media screen and (max-width: 480px) {
+                    font-size: 14px;
+                    padding-bottom: 45px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            text-align: left;
+            margin: 0;
         }
 
         .pricing-cards {
@@ -261,6 +364,10 @@ img {
                     margin: 0;
                     font-size: 16px;
                 }
+
+                @media screen and (max-width: 480px) {
+                    display: none;
+                }
             }
 
             .pricing-card1 {
@@ -291,6 +398,7 @@ img {
                     color: #172755;
                     margin-top: 28px;
                     margin-bottom: 0;
+
                 }
 
                 span {
@@ -301,6 +409,16 @@ img {
                     margin: 0;
                     font-size: 16px;
                 }
+
+                @media screen and (max-width: 480px) {
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+
+            @media screen and (max-width: 480px) {
+                padding-top: 0;
+                padding-bottom: 45px;
             }
         }
     }
