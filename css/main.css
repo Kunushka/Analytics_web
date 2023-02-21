@@ -467,7 +467,6 @@ header #burger, header [for=burger] {
 }
 @media screen and (max-width: 480px) {
   header {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.593);
     padding: 0px;
   }
 }
@@ -534,7 +533,8 @@ img {
 }
 
 .top {
-  background-image: url(../img/top_bg.png);
+  background-image: url(../img/top_bg2.png), url(../img/top_bg1.jpg);
+  background-position: 902px 166px, top center;
   background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
@@ -739,7 +739,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .top .infographics .infographic-wrapper img {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 }
 .top .infographics .infographic-wrapper h2 {
@@ -779,22 +779,27 @@ img {
     margin-left: 0;
   }
 }
-.top .infographics .infographic-wrapper-reverse h2 {
+@media screen and (max-width: 480px) {
+  .top .infographics .infographic-wrapper-reverse {
+    margin-bottom: 40px;
+  }
+}
+.top .infographics h2 {
   text-align: left;
   max-width: 480px;
 }
-.top .infographics .infographic-wrapper-reverse p {
+.top .infographics p {
   text-align: left;
   max-width: 480px;
 }
 @media screen and (max-width: 480px) {
-  .top .infographics .infographic-wrapper-reverse p {
+  .top .infographics p {
     font-size: 14px;
     margin: 0;
     margin-bottom: 30px;
   }
 }
-.top .infographics .infographic-wrapper-reverse img {
+.top .infographics img {
   max-width: 600px;
   width: 100%;
   height: auto;
@@ -802,12 +807,12 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 480px) {
-  .top .infographics .infographic-wrapper-reverse img {
-    margin-bottom: 60px;
+  .top .infographics img {
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 480px) {
-  .top .infographics .infographic-wrapper-reverse {
+  .top .infographics {
     margin-bottom: 0;
   }
 }
@@ -832,12 +837,6 @@ img {
   .bottom .pricing .pricing-write p {
     font-size: 14px;
     padding-bottom: 45px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .bottom .pricing {
-    text-align: left;
-    margin: 0;
   }
 }
 .bottom .pricing .pricing-cards {
@@ -931,6 +930,12 @@ img {
   .bottom .pricing .pricing-cards {
     padding-top: 0;
     padding-bottom: 45px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bottom .pricing {
+    text-align: left;
+    margin: 0;
   }
 }
 

@@ -5,7 +5,8 @@ img {
 }
 
 .top {
-    background-image: url(../img/top_bg.png);
+    background-image: url(../img/top_bg2.png), url(../img/top_bg1.jpg);
+    background-position: 902px 166px, top center;
     background-repeat: no-repeat;
     margin: 0 auto;
     text-align: center;
@@ -211,7 +212,7 @@ img {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 
                 @media screen and (max-width: 480px) {
-                    margin-bottom: 60px;
+                    margin-bottom: 40px;
                 }
             }
 
@@ -253,37 +254,41 @@ img {
                 }
             }
 
-            h2 {
-                text-align: left;
-                max-width: 480px;
+            @media screen and (max-width: 480px) {
+                margin-bottom: 40px;
             }
+        }
 
-            p {
-                text-align: left;
-                max-width: 480px;
+        h2 {
+            text-align: left;
+            max-width: 480px;
+        }
 
-                @media screen and (max-width: 480px) {
-                    font-size: 14px;
-                    margin: 0;
-                    margin-bottom: 30px;
-                }
-            }
-
-            img {
-                max-width: 600px;
-                width: 100%;
-                height: auto;
-                margin: 0 auto;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-
-                @media screen and (max-width: 480px) {
-                    margin-bottom: 60px;
-                }
-            }
+        p {
+            text-align: left;
+            max-width: 480px;
 
             @media screen and (max-width: 480px) {
-                margin-bottom: 0;
+                font-size: 14px;
+                margin: 0;
+                margin-bottom: 30px;
             }
+        }
+
+        img {
+            max-width: 600px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+            @media screen and (max-width: 480px) {
+                margin-bottom: 0px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            margin-bottom: 0;
         }
     }
 }
@@ -311,11 +316,6 @@ img {
                     padding-bottom: 45px;
                 }
             }
-        }
-
-        @media screen and (max-width: 480px) {
-            text-align: left;
-            margin: 0;
         }
 
         .pricing-cards {
@@ -398,7 +398,6 @@ img {
                     color: #172755;
                     margin-top: 28px;
                     margin-bottom: 0;
-
                 }
 
                 span {
@@ -420,6 +419,11 @@ img {
                 padding-top: 0;
                 padding-bottom: 45px;
             }
+        }
+
+        @media screen and (max-width: 480px) {
+            text-align: left;
+            margin: 0;
         }
     }
 }
