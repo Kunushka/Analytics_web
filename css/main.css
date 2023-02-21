@@ -340,7 +340,7 @@ h1 {
 }
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 32px;
+    font-size: 31px;
   }
 }
 
@@ -530,6 +530,7 @@ img {
   border-radius: 30px;
   max-width: 100%;
   height: auto;
+  margin: 0;
 }
 
 .top {
@@ -590,13 +591,7 @@ img {
   }
 }
 @media screen and (max-width: 480px) {
-  .top .advantage {
-    padding-top: 10px;
-  }
-}
-@media screen and (max-width: 480px) {
   .top .advantage .img_responsive {
-    width: 100%;
     height: auto;
     margin: 0 auto;
     padding-top: 10px;
@@ -609,7 +604,9 @@ img {
 }
 @media screen and (max-width: 480px) {
   .top .advantage {
-    padding-bottom: 158px;
+    width: 335px;
+    padding-bottom: 50px;
+    padding-top: 10px;
   }
 }
 .top .features {
@@ -781,6 +778,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .top .infographics .infographic-wrapper-reverse {
+    width: 335px;
     margin-bottom: 40px;
   }
 }
@@ -813,6 +811,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .top .infographics {
+    width: 335px;
     margin-bottom: 0;
   }
 }

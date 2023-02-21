@@ -2,6 +2,7 @@ img {
     border-radius: 30px;
     max-width: 100%;
     height: auto;
+    margin: 0;
 }
 
 .top {
@@ -62,13 +63,8 @@ img {
             }
         }
 
-        @media screen and (max-width: 480px) {
-            padding-top: 10px;
-        }
-
         .img_responsive {
             @media screen and (max-width: 480px) {
-                width: 100%;
                 height: auto;
                 margin: 0 auto;
                 padding-top: 10px;
@@ -80,7 +76,9 @@ img {
         }
 
         @media screen and (max-width: 480px) {
-            padding-bottom: 158px;
+            width: 335px;
+            padding-bottom: 50px;
+            padding-top: 10px;
         }
     }
 
@@ -255,6 +253,7 @@ img {
             }
 
             @media screen and (max-width: 480px) {
+                width: 335px;
                 margin-bottom: 40px;
             }
         }
@@ -288,6 +287,7 @@ img {
         }
 
         @media screen and (max-width: 480px) {
+            width: 335px;
             margin-bottom: 0;
         }
     }
