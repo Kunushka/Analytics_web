@@ -338,6 +338,11 @@ h1 {
   text-transform: none;
   margin: 0;
 }
+@media screen and (max-width: 768px) {
+  h1 {
+    max-width: 650px;
+  }
+}
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 31px;
@@ -382,6 +387,11 @@ button:hover {
   border: 1px solid #465B95;
   color: #5e6884;
 }
+@media screen and (max-width: 768px) {
+  .signin {
+    padding: 10px 40px;
+  }
+}
 
 .signup {
   margin-left: 5px;
@@ -391,6 +401,11 @@ button:hover {
 }
 .signup:hover {
   color: #5e6884;
+}
+@media screen and (max-width: 768px) {
+  .signup {
+    display: none;
+  }
 }
 @media screen and (max-width: 480px) {
   .signup {
@@ -408,6 +423,11 @@ button:hover {
 }
 .tryforfree:hover {
   opacity: 0.5;
+}
+@media screen and (max-width: 768px) {
+  .tryforfree {
+    margin-bottom: 25px;
+  }
 }
 @media screen and (max-width: 480px) {
   .tryforfree {
@@ -518,6 +538,11 @@ header .right-contenth .right-items {
   display: flex;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 50px;
+  }
+}
 @media screen and (max-width: 480px) {
   header {
     padding: 0;
@@ -555,6 +580,12 @@ img {
   padding-top: 15px;
   padding-bottom: 35px;
 }
+@media screen and (max-width: 768px) {
+  .top .advantage p {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
 @media screen and (max-width: 480px) {
   .top .advantage p {
     padding-bottom: 25px;
@@ -567,6 +598,12 @@ img {
   justify-content: space-between;
   max-width: 550px;
   margin-right: 80px;
+}
+@media screen and (max-width: 768px) {
+  .top .advantage .advantage-left {
+    margin-right: 0px;
+    max-width: 760px;
+  }
 }
 @media screen and (max-width: 480px) {
   .top .advantage .advantage-left {
@@ -602,10 +639,22 @@ img {
     display: none;
   }
 }
+@media screen and (max-width: 1024px) {
+  .top .advantage {
+    padding-top: 0px;
+    padding-bottom: 220px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top .advantage {
+    padding-top: 0px;
+    padding-bottom: 120px;
+  }
+}
 @media screen and (max-width: 480px) {
   .top .advantage {
     width: 335px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-top: 10px;
   }
 }
@@ -635,12 +684,16 @@ img {
 .top .features .features-cards {
   display: flex;
   flex-wrap: wrap;
-  border-radius: 0px;
 }
 .top .features .features-cards .features-card {
   max-width: 380px;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .top .features .features-cards .features-card {
+    max-width: 245px;
+  }
 }
 @media screen and (max-width: 480px) {
   .top .features .features-cards .features-card {
@@ -674,6 +727,12 @@ img {
     margin-top: 0;
   }
 }
+@media screen and (max-width: 768px) {
+  .top .features .features-cards .features-description .features-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
 @media screen and (max-width: 480px) {
   .top .features .features-cards .features-description .features-text {
     font-size: 14px;
@@ -702,61 +761,77 @@ img {
     padding-top: 30px;
   }
 }
+@media screen and (max-width: 768px) {
+  .top .features {
+    padding-top: 0px;
+    padding-bottom: 90px;
+  }
+}
 @media screen and (max-width: 480px) {
   .top .features {
     padding-bottom: 15px;
   }
 }
-.top .infographics {
+.top .infographics .infographic-img {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
+  width: auto;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.top .infographics .infographic-content {
+  margin: 0 auto;
+  max-width: 480px;
+}
+@media screen and (max-width: 768px) {
+  .top .infographics .infographic-content {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top .infographics .infographic-content {
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+.top .infographics h2 {
+  text-align: left;
+}
+.top .infographics p {
+  text-align: left;
+}
+@media screen and (max-width: 480px) {
+  .top .infographics p {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
 }
 .top .infographics .infographic-wrapper {
   margin-bottom: 120px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-.top .infographics .infographic-wrapper .infographic-content {
-  max-width: 480px;
-  margin: 0 auto;
-  margin-right: 100px;
-}
-@media screen and (max-width: 480px) {
-  .top .infographics .infographic-wrapper .infographic-content {
-    margin-right: 0;
+@media screen and (max-width: 1024px) {
+  .top .infographics .infographic-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
-.top .infographics .infographic-wrapper img {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
-@media screen and (max-width: 480px) {
-  .top .infographics .infographic-wrapper img {
-    margin-bottom: 40px;
-  }
-}
-.top .infographics .infographic-wrapper h2 {
-  text-align: left;
-  max-width: 480px;
-}
-.top .infographics .infographic-wrapper p {
-  text-align: left;
-  max-width: 480px;
-}
-@media screen and (max-width: 480px) {
-  .top .infographics .infographic-wrapper p {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 30px;
+@media screen and (max-width: 768px) {
+  .top .infographics .infographic-wrapper {
+    justify-content: space-around;
   }
 }
 @media screen and (max-width: 480px) {
   .top .infographics .infographic-wrapper {
     margin-bottom: 0;
+    padding-bottom: 50px;
   }
 }
 .top .infographics .infographic-wrapper-reverse {
@@ -766,52 +841,25 @@ img {
   align-items: center;
   flex-direction: row-reverse;
 }
-.top .infographics .infographic-wrapper-reverse .infographic-content {
-  max-width: 480px;
-  margin: 0 auto;
-  margin-left: 100px;
+@media screen and (max-width: 1024px) {
+  .top .infographics .infographic-wrapper-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
-@media screen and (max-width: 480px) {
-  .top .infographics .infographic-wrapper-reverse .infographic-content {
-    margin-left: 0;
+@media screen and (max-width: 768px) {
+  .top .infographics .infographic-wrapper-reverse {
+    justify-content: space-around;
   }
 }
 @media screen and (max-width: 480px) {
   .top .infographics .infographic-wrapper-reverse {
-    width: 335px;
-    margin-bottom: 40px;
-  }
-}
-.top .infographics h2 {
-  text-align: left;
-  max-width: 480px;
-}
-.top .infographics p {
-  text-align: left;
-  max-width: 480px;
-}
-@media screen and (max-width: 480px) {
-  .top .infographics p {
-    font-size: 14px;
-    margin: 0;
-    margin-bottom: 30px;
-  }
-}
-.top .infographics img {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
-@media screen and (max-width: 480px) {
-  .top .infographics img {
-    margin-bottom: 0px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 480px) {
   .top .infographics {
-    width: 335px;
     margin-bottom: 0;
   }
 }

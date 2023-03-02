@@ -32,6 +32,10 @@ h1 {
     text-transform: none;
     margin: 0;
 
+    @media screen and (max-width: 768px) {
+        max-width: 650px;
+    }
+
     @media screen and (max-width: 480px) {
         font-size: 31px;
     }

@@ -20,6 +20,10 @@ button {
         border: 1px solid #465B95;
         color: #5e6884;
     }
+
+    @media screen and (max-width: 768px) {
+        padding: 10px 40px;
+    }
 }
 
 .signup {
@@ -30,6 +34,10 @@ button {
 
     &:hover {
         color: #5e6884;
+    }
+
+    @media screen and (max-width: 768px) {
+        display: none;
     }
 
     @media screen and (max-width: 480px) {
@@ -48,7 +56,10 @@ button {
     &:hover {
         opacity: 0.5;
     }
-
+    @media screen and (max-width: 768px){
+        margin-bottom: 25px;
+    }
+    
     @media screen and (max-width: 480px) {
         padding: 15px 125px;
     }

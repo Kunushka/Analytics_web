@@ -27,6 +27,11 @@ img {
             padding-top: 15px;
             padding-bottom: 35px;
 
+            @media screen and (max-width: 768px) {
+                padding-bottom: 0;
+                padding-top: 0;
+            }
+
             @media screen and (max-width: 480px) {
                 padding-bottom: 25px;
                 margin: 0;
@@ -39,6 +44,11 @@ img {
             justify-content: space-between;
             max-width: 550px;
             margin-right: 80px;
+
+            @media screen and (max-width: 768px) {
+                margin-right: 0px;
+                max-width: 760px;
+            }
 
             @media screen and (max-width: 480px) {
                 padding-top: 15px;
@@ -75,9 +85,19 @@ img {
             }
         }
 
+        @media screen and (max-width: 1024px) {
+            padding-top: 0px;
+            padding-bottom: 220px;
+        }
+
+        @media screen and (max-width: 768px) {
+            padding-top: 0px;
+            padding-bottom: 120px;
+        }
+
         @media screen and (max-width: 480px) {
             width: 335px;
-            padding-bottom: 50px;
+            padding-bottom: 100px;
             padding-top: 10px;
         }
     }
@@ -109,12 +129,15 @@ img {
         .features-cards {
             display: flex;
             flex-wrap: wrap;
-            border-radius: 0px;
 
             .features-card {
                 max-width: 380px;
                 margin: 0 auto;
                 margin-bottom: 20px;
+
+                @media screen and (max-width: 768px) {
+                    max-width: 245px;
+                }
 
                 @media screen and (max-width: 480px) {
                     display: flex;
@@ -149,6 +172,11 @@ img {
                 }
 
                 .features-text {
+                    @media screen and (max-width: 768px) {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+
                     @media screen and (max-width: 480px) {
                         font-size: 14px;
                     }
@@ -177,61 +205,75 @@ img {
             }
         }
 
+        @media screen and (max-width: 768px) {
+            padding-top: 0px;
+            padding-bottom: 90px;
+        }
+
         @media screen and (max-width: 480px) {
             padding-bottom: 15px;
         }
     }
 
     .infographics {
-        display: flex;
-        flex-wrap: wrap;
+        .infographic-img {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .infographic-content {
+            margin: 0 auto;
+            max-width: 480px;
+
+            @media screen and (max-width: 768px) {
+                max-width: 100%;
+            }
+
+            @media screen and (max-width: 480px) {
+                margin-right: 0;
+                max-width: 100%;
+            }
+        }
+
+        h2 {
+            text-align: left;
+        }
+
+        p {
+            text-align: left;
+
+            @media screen and (max-width: 480px) {
+                font-size: 14px;
+                margin: 0;
+                margin-bottom: 30px;
+            }
+        }
 
         .infographic-wrapper {
             margin-bottom: 120px;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
+            justify-content: space-between;
 
-            .infographic-content {
-                max-width: 480px;
-                margin: 0 auto;
-                margin-right: 100px;
-
-                @media screen and (max-width: 480px) {
-                    margin-right: 0;
-                }
+            @media screen and (max-width: 1024px) {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
             }
 
-            img {
-                max-width: 600px;
-                width: 100%;
-                height: auto;
-                margin: 0 auto;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-
-                @media screen and (max-width: 480px) {
-                    margin-bottom: 40px;
-                }
-            }
-
-            h2 {
-                text-align: left;
-                max-width: 480px;
-            }
-
-            p {
-                text-align: left;
-                max-width: 480px;
-
-                @media screen and (max-width: 480px) {
-                    font-size: 14px;
-                    margin-top: 0;
-                    margin-bottom: 30px;
-                }
+            @media screen and (max-width: 768px) {
+                justify-content: space-around;
             }
 
             @media screen and (max-width: 480px) {
                 margin-bottom: 0;
+                padding-bottom: 50px;
             }
         }
 
@@ -242,52 +284,22 @@ img {
             align-items: center;
             flex-direction: row-reverse;
 
-            .infographic-content {
-                max-width: 480px;
-                margin: 0 auto;
-                margin-left: 100px;
+            @media screen and (max-width: 1024px) {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
 
-                @media screen and (max-width: 480px) {
-                    margin-left: 0;
-                }
+            @media screen and (max-width: 768px) {
+                justify-content: space-around;
             }
 
             @media screen and (max-width: 480px) {
-                width: 335px;
-                margin-bottom: 40px;
-            }
-        }
-
-        h2 {
-            text-align: left;
-            max-width: 480px;
-        }
-
-        p {
-            text-align: left;
-            max-width: 480px;
-
-            @media screen and (max-width: 480px) {
-                font-size: 14px;
-                margin: 0;
-                margin-bottom: 30px;
-            }
-        }
-
-        img {
-            max-width: 600px;
-            width: 100%;
-            height: auto;
-            margin: 0 auto;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-
-            @media screen and (max-width: 480px) {
-                margin-bottom: 0px;
+                margin-bottom: 50px;
             }
         }
 
         @media screen and (max-width: 480px) {
-            width: 335px;
             margin-bottom: 0;
         }
     }
